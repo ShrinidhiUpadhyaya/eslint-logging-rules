@@ -4,6 +4,7 @@ A custom ESLint plugin providing rules to enforce best practices for error handl
 
 <h2>Features</h2>
 This plugin includes the following custom rules:
+
 - **`catch-rule`**: Ensures all Promises have a proper `.catch` block to handle errors.
 - **`custom-fields-rule`**: Enforces the inclusion of custom fields (timestamp, application, system, severity, reason, category) in logs.
 - **`json-log-rule`**: Validates that logs are in a consistent JSON format for easier parsing by log management tools.
@@ -13,6 +14,7 @@ This plugin includes the following custom rules:
 <h2>Installation</h2>
 You can install the plugin via npm:
 
+
 ```bash
 npm install eslint-logging-rules --save-dev
 ```
@@ -20,6 +22,7 @@ npm install eslint-logging-rules --save-dev
 <h2>Usage</h2>
 To enable the plugin and its rules in your project:
 1. Import the plugin in eslint.config.mjs
+
 
 ```bash
 import eslintPluginCustomRules from "eslint-logging-rules"; // Import your custom rules plugin
