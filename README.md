@@ -12,8 +12,7 @@ This plugin includes the following custom rules:
 - **`then-rule`**: Enforces consistent structure for `.then` chains in Promises, preventing deeply nested chains and ensuring correct returns.
 
 <h2>Installation</h2>
-You can install the plugin via npm:
-
+You can install the plugin via npm: 
 
 ```bash
 npm install eslint-logging-rules --save-dev
@@ -22,7 +21,6 @@ npm install eslint-logging-rules --save-dev
 <h2>Usage</h2>
 To enable the plugin and its rules in your project:
 1. Import the plugin in eslint.config.mjs
-
 
 ```bash
 import eslintPluginCustomRules from "eslint-logging-rules"; // Import your custom rules plugin
